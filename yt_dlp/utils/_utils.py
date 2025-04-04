@@ -4676,7 +4676,7 @@ def clean_podcast_url(url):
                 chrt\.fm/track|
                 mgln\.ai/e
             )(?:/[^/.]+)?|
-            (?:dts|www)\.podtrac\.com/(?:pts/)?redirect\.[0-9a-z]{3,4}| # http://analytics.podtrac.com/how-to-measure
+            (?:(?:dts|www)\.)?podtrac\.com/(?:pts/)?redirect\.[0-9a-z]{3,4}| # http://analytics.podtrac.com/how-to-measure
             flex\.acast\.com|
             pd(?:
                 cn\.co| # https://podcorn.com/analytics-prefix/
